@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Actividad de Conceptualización de servicios en nube de Diego Covarrubias.">
+    <title>Servicios en nube | Diego Covarrubias</title>
+    <style>
+      :root { color-scheme: light; font-family: Arial, Helvetica, sans-serif; color: #17324b; background: #dce9f2; }
+      * { box-sizing: border-box; }
+      body { min-height: 100vh; margin: 0; padding: clamp(16px, 4vw, 48px); background: #dce9f2 url("fondo.svg") center / cover fixed no-repeat; }
+      .contenedor { width: min(100%, 1040px); min-height: calc(100vh - clamp(32px, 8vw, 96px)); margin: 0 auto; display: flex; flex-direction: column; overflow: hidden; border: 1px solid rgba(255,255,255,.8); border-radius: 24px; background: rgba(255,255,255,.94); box-shadow: 0 24px 70px rgba(16,55,83,.18); }
+      .header { display: flex; align-items: center; gap: 22px; padding: 22px clamp(24px, 5vw, 56px); border-bottom: 1px solid #dce8ef; background: #fff; }
+      .logo { display: block; width: 142px; height: auto; flex: none; }
+      .header-texto { padding-left: 22px; border-left: 2px solid #d9e6ef; }
+      .header-texto span { display: block; margin-bottom: 4px; color: #637b8e; font-size: .75rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+      .header-texto strong { font-size: 1rem; }
+      main { flex: 1; padding: clamp(32px, 6vw, 64px) clamp(24px, 7vw, 76px); }
+      .etiqueta { display: inline-block; margin: 0 0 16px; padding: 7px 12px; border-radius: 100px; background: #e4f1f8; color: #075b88; font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+      h1 { max-width: 720px; margin: 0; color: #073d64; font-size: clamp(2rem, 5vw, 3.7rem); line-height: 1.1; letter-spacing: -.04em; }
+      .introduccion { max-width: 620px; margin: 18px 0 34px; color: #506a7d; font-size: 1.05rem; line-height: 1.6; }
+      .video-titulo { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 14px; }
+      h2 { margin: 0; font-size: 1.2rem; }
+      .video-titulo a, footer a { color: #006da6; text-underline-offset: 3px; }
+      .video-titulo a { font-size: .9rem; font-weight: 700; }
+      .video { width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 16px; background: #082d49; box-shadow: 0 14px 34px rgba(6,43,68,.16); }
+      .video iframe { width: 100%; height: 100%; border: 0; }
+      footer { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 36px; padding: 30px clamp(24px, 7vw, 76px); border-top: 1px solid #dce8ef; background: #f1f7fa; }
+      footer span { display: block; margin-bottom: 6px; color: #668094; font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+      footer strong { font-size: .95rem; line-height: 1.4; }
+      @media (max-width: 600px) {
+        .contenedor { border-radius: 18px; }
+        .header { gap: 14px; }
+        .logo { width: 105px; }
+        .header-texto { padding-left: 14px; }
+        .header-texto strong { font-size: .85rem; }
+        .video-titulo { display: block; }
+        .video-titulo a { display: inline-block; margin-top: 10px; }
+        footer { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="header">
+        <img class="logo" src="images.jpeg" alt="Logo de UDGVirtual">
+        <div class="header-texto"><span>Actividad académica</span><strong>Sistema de universidad virtual de la universidad de Guadalajara </strong></div>
+      </div>
+      <main>
+        <p class="etiqueta">Recurso audiovisual</p>
+        <h1>Conceptualización de servicios en nube</h1>
+        <p class="introduccion">Un espacio para consultar el video de la actividad y los datos de identificación del estudiante.</p>
+        <div class="video-titulo">
+          <h2>Video de la actividad</h2>
+          <a href="https://youtu.be/jkk9cxqqQhE?si=1P7G71E-cWWzBnru" target="_blank" rel="noopener noreferrer">Ver en YouTube ↗</a>
+        </div>
+        <div class="video">
+          <iframe src="https://www.youtube-nocookie.com/embed/jkk9cxqqQhE" title="Video de la actividad: Conceptualización de servicios en nube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </main>
+      <footer>
+        <div><span>Curso</span><strong>Conceptualización de servicios en nube</strong></div>
+        <div><span>Estudiante</span><strong>Diego Covarrubias</strong></div>
+        <div><span>Código de estudiante</span><strong>211371035</strong></div>
+        <div><span>Correo de contacto</span><strong><a href="mailto:diego@correo.com">diego@correo.com</a></strong></div>
+      </footer>
+    </div>
+  </body>
+</html>

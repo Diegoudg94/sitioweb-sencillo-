@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="cielo" x2="1" y2="1"><stop stop-color="#b8d7e9"/><stop offset=".55" stop-color="#dceaf1"/><stop offset="1" stop-color="#a8cbdc"/></linearGradient>
+    <pattern id="puntos" width="38" height="38" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#fff" opacity=".55"/></pattern>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#cielo)"/>
+  <rect width="1600" height="1100" fill="url(#puntos)"/>
+  <g fill="#fff" opacity=".38"><circle cx="100" cy="235" r="170"/><circle cx="290" cy="205" r="120"/><circle cx="1460" cy="320" r="230"/><circle cx="1240" cy="330" r="140"/><circle cx="145" cy="955" r="235"/><circle cx="1465" cy="950" r="260"/></g>
+  <g fill="none" stroke="#fff" stroke-width="2" opacity=".42">
+    <path d="M-100 560C180 420 310 690 570 520s370-120 550 25 370 160 590-30"/>
+    <path d="M-100 590C180 450 310 720 570 550s370-120 550 25 370 160 590-30"/>
+    <path d="M-100 620C180 480 310 750 570 580s370-120 550 25 370 160 590-30"/>
+  </g>
+</svg>
